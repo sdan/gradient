@@ -1,0 +1,35 @@
+.colorgrad {
+background: rgba(0, 0, 0, 0) repeating-linear-gradient(-45deg, rgb(0, 84, 253) 0%, rgb(255, 25, 247) 7.14%, rgb(255, 46, 93) 14.28%, rgb(255, 170, 7) 21.42%, rgb(255, 170, 7) 28.56%, rgb(255, 46, 93) 35.7%, rgb(255, 25, 247) 42.84%, rgb(0, 84, 253) 50%) repeat scroll 0% 0% / 600vw 600vw padding-box text;
+background-color:
+rgba(0, 0, 0, 0);
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-attachment: scroll;
+background-image: repeating-linear-gradient(-45deg,
+rgb(0, 84, 253) 0%, rgb(255, 25, 247) 7.14%, rgb(255, 46, 93) 14.28%, rgb(255, 170, 7) 21.42%, rgb(255, 170, 7) 28.56%, rgb(255, 46, 93) 35.7%, rgb(255, 25, 247) 42.84%,
+rgb(0, 84, 253) 50%);
+background-size: 600vw 600vw;
+background-origin: padding-box;
+-webkit-animation: 60s ease 0s infinite normal forwards running followThrough;
+-moz-animation: 60s ease 0s infinite normal forwards running followThrough;
+animation: 60s ease 0s infinite normal forwards running followThrough;
+}
+
+@keyframes followThrough {
+  0%{background-position:0% 0%}
+    50%{background-position:50% 50%}
+    100%{background-position:0% 0%}
+}
+
+@-webkit-keyframes followThrough {
+  0%{background-position:0% 0%}
+    50%{background-position:50% 50%}
+    100%{background-position:0% 0%}
+}
+
+@-moz-keyframes followThrough {
+  0%{background-position:0% 0%}
+    50%{background-position:50% 50%}
+    100%{background-position:0% 0%}
+}
