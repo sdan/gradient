@@ -36,4 +36,7 @@ and utilize it for:
 </body>
 ```
 
+## support:
+backlinks to `<a href="https://suryad.com">Color brought you by Surya</a>` would be helpful!
+
 feel free to open up issues if there's any problems
